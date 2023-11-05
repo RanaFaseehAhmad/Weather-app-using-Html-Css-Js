@@ -1,0 +1,99 @@
+* {
+    font-family: "poppins", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+
+.card {
+    display: flex;
+    margin: 50px auto;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 17px;
+    border: 10;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+
+.inputText {
+    border: 0;
+    border-radius: 17px;
+    height: 38px;
+    width: 70%;
+    padding: 19px;
+
+}
+
+.first .btn {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.weather {
+    margin: 30px auto 0;
+    /* width: 50px */
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.weather .firstimg {
+    width: 170px
+}
+
+.col {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.tempdet {
+    display: flex;
+    color: white;
+}
+
+.tempdet img {
+    width: 40px;
+}
+
+.tempdet .detail {
+    margin-left: 10px;
+    align-content: center;
+}
+
+.tempdet .detail h6 {
+    font-size: 0.8rem;
+}
+
+.tempdet2 {
+    display: flex;
+    color: white;
+}
+
+.tempdet2 img {
+    width: 40px;
+}
+
+.tempdet2 .detail2 {
+    margin-left: 10px;
+}
+
+.tempdet2 .detail2 h6 {
+    font-size: 0.8rem;
+}
